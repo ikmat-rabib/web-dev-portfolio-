@@ -113,6 +113,11 @@ nav a {
 }
 
 
+/* main section style */
+
+
+
+
 /* about section */
 
 .about {
@@ -120,4 +125,22 @@ nav a {
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 230px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    color: #757575;
+    /* font-size: 20px; */
+}
+.info-description{
+    color: #474747;
+    font-weight: 400;
 }
